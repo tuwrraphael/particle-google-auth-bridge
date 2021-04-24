@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "particle-google-auth-bridge",
+  "version": "1.0.0",
+  "description": "Gets an access token for particle cloud using google authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "dependencies": {}
+}
