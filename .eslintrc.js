@@ -6,7 +6,7 @@ module.exports = {
   extends: [
     "eslint:recommended"
   ],
-  globals: { "GOOGLE_AUD": true, "PARTICLE_GOOGLE_AUTH": true },
+  globals: { "GOOGLE_AUD": true, "PARTICLE_GOOGLE_AUTH": true, "ALEXA_AUD": true },
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module"

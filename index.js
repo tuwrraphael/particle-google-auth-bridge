@@ -50,7 +50,7 @@ async function handleRequest(request) {
         throw new Error(`id token validation resulted in ${res.status}`);
       }
       let body = (await res.json());
-      if (body.aud != GOOGLE_AUD) {
+      if (body.aud != GOOGLE_AUD && body.aud != ALEXA_AUD) {
         throw new Error("audience mismatch");
       }
       if (new Date(body.exp * 1000) < new Date()) {
